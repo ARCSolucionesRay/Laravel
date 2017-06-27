@@ -1,0 +1,12 @@
+ DB::table('hoja_Rutas')->insert(
+    [
+        'nombreHojaRuta'=>'SegundaRuta',
+        'created_at'=>'2017-05-18 08:40:46',
+        'updated_at'=>'2017-05-18 08:40:46',
+    ]
+); 
+
+
+
+DB::table('servicios')->insert(['id_servicio_pk'=>'2010102001','id_propiedad_fk'=>'31','id_medidor_fk'=>'12','id_cliente_fk'=>'31','id_hojaRuta_fk'=>'23','created_at'=>'2017-05-18 08:40:46','updated_at'=>'2017-05-18 08:40:46','id_tipoServicio_fk'=>'1']);
+DB::table('servicios')->insert(['id_servicio_pk'=>'2010102561','id_propiedad_fk'=>'12','id_medidor_fk'=>'65','id_cliente_fk'=>'34','id_hojaRuta_fk'=>'98','created_at'=>'2017-05-12 08:40:46','updated_at'=>'2017-05-11 08:40:46','id_tipoServicio_fk'=>'2']);
